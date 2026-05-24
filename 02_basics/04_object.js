@@ -33,5 +33,21 @@ const obj3 = Object.assign({}, obj1, obj2);
 //console.log(Object.values(tinderUser));
 
 //console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+//console.log(tinderUser.hasOwnProperty('isLogged'));
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+};
+
+// destructuring
+const { courseInstructor } = course;
+
+console.log(courseInstructor);
+
+const users = [
+    {},
+    {},
+    {}
+];
